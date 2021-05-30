@@ -6,7 +6,7 @@ import './Header.css';
 import { ReactComponent as Login } from '../../assets/Icons/login.svg';
 import { ReactComponent as Cart } from '../../assets/Icons/cart.svg';
 import { connect } from "react-redux";
-import { signOutAction } from '../../redux/actions/user';
+import { signOutAction } from '../../redux/user/userActions';
 
 
 function Header(props) {

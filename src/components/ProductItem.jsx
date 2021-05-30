@@ -3,7 +3,7 @@ import React from "react";
 // se conecteaza componenta de react cu redux pentru modificarea state-ului
 import { connect } from "react-redux";
 // import actiunea pe care vreau sa o declansez din fisierul actions
-import { addToCart } from "../redux/actions/cart";
+import { addToCart } from "../redux/cart/cartActions";
 
 function ProductItem(props) {
   const { name, price, currency, image, addToCartWithDispatch } = props;

@@ -1,4 +1,13 @@
-.title{
-    height: 52vh;
-    text-align: center;
+.title {
+  text-align: center;
+}
+.paragraf-about {
+  text-align: center;
+  color: blueviolet;
+  font-size: 2rem;
+}
+.logo-cumparaturi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

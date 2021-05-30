@@ -2,12 +2,12 @@
 import React from 'react'
 
 import { connect } from "react-redux";
-// import {signInWithGoogle} from '../apis/firbase';
-import { signInWithGoogleAction } from '../../redux/actions/user';
+// import {signInWithGoogle} from '../apis/firebase';
+import { signInWithGoogleAction } from '../../redux/user/userActions';
 import { ReactComponent as Google } from '../../assets/Icons/google.svg';
 import { ReactComponent as Facebook } from '../../assets/Icons/facebook.svg';
 import './Login.css';
-import { signInWithFacebookAction } from '../../redux/actions/user';
+import { signInWithFacebookAction } from '../../redux/user/userActions';
 import { Link } from 'react-router-dom';
 
 

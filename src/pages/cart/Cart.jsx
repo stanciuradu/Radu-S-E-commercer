@@ -4,7 +4,7 @@ import Layout from "../../components/layout/Layout";
 import { connect } from "react-redux";
 import "./Cart.css";
 // import actiunea in pagina de cart
-import { removeFromCart } from "../../redux/actions/cart";
+import { removeFromCart } from "../../redux/cart/cartActions";
 import { Link } from "react-router-dom";
 
 function Cart(props) {
@@ -24,7 +24,7 @@ function Cart(props) {
                 // Afisam produsele din cart.
                 props.products.map((product) => {
                   return (
-                    <div className="col-4 mt-2 mb-4">
+                    <div className="col-12 col-md-4 mb-4">
                       <img src={product.image} alt="Produs" className="w-100" />
                       <div className="cart">
                         <p>{product.name}</p>

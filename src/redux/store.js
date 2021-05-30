@@ -3,8 +3,8 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import thunk from 'redux-thunk';
 // import reducer-ul din fisierul cart
-import cartReducer from "./reducers/cart";
-import { userReducer } from './reducers/user';
+import cartReducer from "./cart/cartReducers";
+import { userReducer } from './user/userReducers';
 
 
 const rootReducer = combineReducers({ cart: cartReducer, user: userReducer })
