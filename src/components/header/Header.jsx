@@ -5,6 +5,7 @@ import logo from '../../assets/Images/emblemă-magazin.png';
 import './Header.css';
 import { ReactComponent as Login } from '../../assets/Icons/login.svg';
 import { ReactComponent as Cart } from '../../assets/Icons/cart.svg';
+import { ReactComponent as Favorite } from '../../assets/Icons/favorite-icon.svg';
 import { connect } from "react-redux";
 import { signOutAction } from '../../redux/user/userActions';
 
@@ -43,6 +44,9 @@ function Header(props) {
                     <Cart />
                 </Link>
                 <p className='ml-2'>{numberOfProducts}</p>
+                <Link to='/favorite'>
+                    <Favorite/>
+                </Link>
             </div>
         </div>
     );

@@ -9,6 +9,7 @@ import Login from "./pages/login/Login";
 import Category from "./pages/category/Category";
 import TermsAndConditions from "./pages/terms-and-conditions/TermsAndConditions";
 import Cart from "./pages/cart/Cart";
+import Favorite from './pages/Favorite/Favorite';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         {/* ...props-trimite mai departe props-urile history, location ,match*/}
         <Route path="/login" component={Login} />
         <Route path="/cart" component={Cart} />
+        <Route path='/favorite' component={Favorite}/>
         <Route path="/termsAndConditions" component={TermsAndConditions} />
         {/* pun in ULR id-ul produsului ca parametru */}
         <Route path="*" component={Page404} />
