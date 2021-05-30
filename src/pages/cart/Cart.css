@@ -1,0 +1,20 @@
+.footer-bottom {
+  height: 52vh;
+  justify-content: center;
+  align-items: center;
+}
+.footer-bottom .h3 {
+  background-color: rgb(229, 201, 190);
+  color: blue;
+  font-size: 2rem;
+  border-style: double;
+  margin-bottom: 1rem;
+}
+.footer-bottom .btn {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.cart{
+  font-weight: bold;
+  text-align: center;
+}

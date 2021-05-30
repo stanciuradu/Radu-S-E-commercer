@@ -1,0 +1,296 @@
+{
+  "sport shoes": {
+    "items": [
+      {
+        "id": 1,
+        "name": "Adidași albi",
+        "price": 200,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/GflL0aQ.jpg",
+        "size": 41,
+        "colour": "Albi",
+        "material": "Piele",
+        "brand": "Nike",
+        "description": "Adidas Nike ideali pentru fitness."
+      },
+      {
+        "id": 2,
+        "name": "Adidași dama",
+        "price": 350,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/dyTqSjk.jpg",
+        "size": 42,
+        "colour": "Negru",
+        "material": "Pânză",
+        "brand": "Juiz de Fora",
+        "description": "Adidași din pânză cu talpă albă, din colecția de primăvară-vară 2020, Fashion Days."
+      },
+      {
+        "id": 3,
+        "name": "Adidași",
+        "price": 400,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/TNyg282.jpg",
+        "size": 45,
+        "colour": "Maro",
+        "material": "Piele",
+        "brand": "Air Belucci",
+        "description": "Adidași cu talpă fină și usoară pentru jogging și sală."
+      }
+    ],
+    "image": "https://i.imgur.com/HndgZY3.jpg",
+    "name": "Articole de incăltăminte sportive",
+    "description": "Incaltaminte sportiva cu talpa usoară pentru jogging."
+  },
+  "gym suite": {
+    "items": [
+      {
+        "id": 4,
+        "name": "Trening cu două culori",
+        "price": 130,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/IE3npyh.jpg",
+        "size": "L",
+        "colour": "Galben-Negru",
+        "material": "Cașmir",
+        "brand": "Joma Academy",
+        "description": "Trening sportiv."
+      },
+      {
+        "id": 5,
+        "name": "Trening cu marca echipei nationale",
+        "price": 199,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/LsRIcZA.jpg",
+        "size": "L",
+        "colour": "Multicolor",
+        "material": "Bumbac",
+        "brand": "SELECTED",
+        "description": "Trening barbatesc din bumbac cu gluga modernă"
+      },
+      {
+        "id": 6,
+        "name": "Trening de firmă",
+        "price": 160,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/pMrusDc.jpg",
+        "size": "L",
+        "colour": "Crem",
+        "material": "Lână",
+        "brand": "Massimo Dutti",
+        "description": "Trening de firmă colecția vară-toamnă."
+      }
+    ],
+    "image": "https://i.imgur.com/NOpg2sd.jpg",
+    "name": "Trening",
+    "description": "Articole de trening perfecte pentru alergat și mulate pe piele"
+  },
+  "lady pantyhose": {
+    "items": [
+      {
+        "id": 7,
+        "name": "Colanți pentru dama ",
+        "price": 60,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/w94FQA5.jpg",
+        "size": "34",
+        "colour": "Colanti închisi",
+        "material": "Textil",
+        "brand": "DS Damat",
+        "description": "Colanți ideali pentru fitness."
+      },
+      {
+        "id": 8,
+        "name": "Colanți fit",
+        "price": 55,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/xuQ19fS.jpg",
+        "size": "34",
+        "colour": "Negru-gri",
+        "material": "Colanți",
+        "brand": "DS Damat",
+        "description": "Colanti ușori pentru antrenamente de acasa."
+      },
+      {
+        "id": 9,
+        "name": "Colanti slim fit",
+        "price": 54,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/PDzpvAd.jpg",
+        "size": "34",
+        "colour": "Negru-gri",
+        "material": "Colanți",
+        "brand": "DS Damat",
+        "description": "Colanti ușori pentru antrenamente."
+      }
+    ],
+    "image": "https://i.imgur.com/2AZ1IsN.jpg",
+    "name": "Colanți dama",
+    "description": "Colanti pentru damă ideali pentru fitness!"
+  },
+  "t-shirts": {
+    "items": [
+      {
+        "id": 10,
+        "name": "Tricou barbati",
+        "price": 210,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/bdZ5OIX.jpg",
+        "size": "L",
+        "colour": "Gri închis",
+        "material": "Textil",
+        "brand": "Peek and Cloppenburg",
+        "description": "Tricou barbati colectia primavara-vara"
+      },
+      {
+        "id": 11,
+        "name": "Tricou barbați",
+        "price": 250,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/sio0nem.jpg",
+        "size": "L",
+        "colour": "Bleumarin",
+        "material": "Textil",
+        "brand": "DS Damat",
+        "description": "Tricou barbati cu inserții negre"
+      },
+      {
+        "id": 12,
+        "name": "Tricou barbați",
+        "price": 240,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/CeCAfjf.jpg",
+        "size": "L",
+        "colour": "Bleumarin",
+        "material": "Textil",
+        "brand": "DS Damat",
+        "description": "Tricou barbati cu inserții albe"
+      }
+    ],
+    "image": "https://i.imgur.com/N12XJ3Y.jpg",
+    "name": "Tricouri bărbați",
+    "description": "Tricouri ideale pentru sport fabricate din material special pentru absorția transpirației!"
+  },
+  "sports accessories": {
+    "items": [
+      {
+        "id": 13,
+        "name": "Sac de box",
+        "price": 1000,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/SaPnHRc.jpg",
+        "size": "L",
+        "colour": "Multicolor",
+        "material": "Material special",
+        "brand": "Gym Fit",
+        "description": "Sac de box pentru antrenarea muschiilor"
+      },
+      {
+        "id": 14,
+        "name": "Aparat cardio atasabil pe brat",
+        "price": 110,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/oH09Mva.jpg",
+        "size": "L",
+        "colour": "alb",
+        "material": "Material special",
+        "brand": "Cardio LS",
+        "description": "Aparat cardio pentru masurarea ritmului cardiac"
+      },
+      {
+        "id": 15,
+        "name": "Pachet mini gantere+saltea fitness",
+        "price": 1909,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/XidP7lp.jpg",
+        "size": "L",
+        "colour": "Galben-Negru",
+        "material": "Poliester",
+        "brand": "Puma",
+        "description": "Pachet ideal pentru sedinte de fitness remote."
+      }
+    ],
+    "image": "https://i.imgur.com/94O8lwY.jpg",
+    "name": "Accesorii sportive",
+    "description": "Gamă variate de accesorii pentru toate sporturile în echipă."
+  },
+  "sports products": {
+    "items": [
+      {
+        "id": 16,
+        "name": "Shake sportiv",
+        "price": 85,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/MTm2qsr.jpg",
+        "size": "Universal",
+        "colour": "Gri-Bleumarin",
+        "material": "",
+        "brand": "Fitness",
+        "description": "Shake proteice pentru o energie deplina."
+      },
+      {
+        "id": 17,
+        "name": "Recipient pentru apă",
+        "price": 60,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/GP3LDmo.jpg",
+        "size": "L",
+        "colour": "Negru",
+        "material": "",
+        "brand": "Fitnnes GYM",
+        "description": "Recipient cu supapă pentru apă."
+      },
+      {
+        "id": 18,
+        "name": "Proteine",
+        "price": 60,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/Fa0IOLg.jpg",
+        "size": "L",
+        "colour": "Negru",
+        "material": "",
+        "brand": "Fitnnes GYM",
+        "description": "Proteine pentru creșterea masei musculare."
+      },
+      {
+        "id": 19,
+        "name": "Minge fotbal",
+        "price": 60,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/JhJnaJf.jpg",
+        "size": "L",
+        "colour": "Negru",
+        "material": "",
+        "brand": "Fitnnes GYM",
+        "description": "Minge de fotbal."
+      },
+      {
+        "id": 20,
+        "name": "Minge tenis de câmp",
+        "price": 30,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/yFmtokV.jpg",
+        "size": "L",
+        "colour": "Negru",
+        "material": "",
+        "brand": "Fitnnes GYM",
+        "description": "Minge de tenis."
+      },
+      {
+        "id": 21,
+        "name": "Minge bascket",
+        "price": 40,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/su3i2id.jpg",
+        "size": "L",
+        "colour": "Negru",
+        "material": "",
+        "brand": "Fitnnes GYM",
+        "description": "Minge de bascket."
+      }
+    ],
+    "image": "https://i.imgur.com/PWhbunT.jpg",
+    "name": "Produse sportive",
+    "description": "Mingi de fotbal, tenis, rugby pentru toate pasiunile sportive!"
+  }
+}

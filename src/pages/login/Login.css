@@ -1,0 +1,56 @@
+.login-page {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+.login-page img {
+  margin-top: 20vh;
+  width: 200px;
+}
+
+.butoane-de-logare {
+  display: flex;
+  border: 0.5rem solid rgb(255, 0, 140);
+  border-radius: 1rem;
+  background-color: rgb(201, 34, 56);
+}
+.butoane-de-logare button {
+  margin-right: 7rem;
+  color: white;
+}
+.butoane-de-logare #facebook {
+  margin-right: 0px;
+}
+
+.titlu-login-page {
+  border-style: groove;
+  border-color: cyan;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-width: 0.5rem;
+}
+
+.titlu-login-page .link {
+  text-decoration: none;
+  margin-left: 4rem;
+  color: white;
+}
+
+.titlu-login-page h1 {
+  color: rgb(128, 41, 10);
+}
+
+.login-page p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: darkmagenta;
+  font-size: 1.3rem;
+}
