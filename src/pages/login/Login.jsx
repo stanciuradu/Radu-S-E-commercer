@@ -42,7 +42,7 @@ class Login extends React.Component {
           </Link>
         </div>
         <p>Alege providerul cu care vrei să vrei să te loghezi:</p>
-        <div className='butoane-de-logare'>
+        <div className='col-12-login col-md-6'>
           <button
             className="btn btn-outline-dark d-flex align-items-center"
             onClick={() => this.handleGoogleLogin()}
@@ -57,7 +57,7 @@ class Login extends React.Component {
             onClick={() => this.handleFacebookLogin()}
           >
             <Facebook className="w-50 mr-3" />
-            <span className="text-nowrap">Loghează-te cu Google</span>
+            <span className="text-nowrap">Loghează-te cu Facebook</span>
           </button>
         </div>
       </div>

@@ -10,23 +10,16 @@
   background-color: burlywood;
 }
 
-.login-page img {
-  margin-top: 20vh;
-  width: 200px;
+.col-12-login {
+  border-radius: 1rem;
 }
 
-.butoane-de-logare {
-  display: flex;
-  border: 0.5rem solid rgb(255, 0, 140);
-  border-radius: 1rem;
-  background-color: rgb(201, 34, 56);
-}
-.butoane-de-logare button {
-  margin-right: 7rem;
+.col-12-login button {
   color: white;
-}
-.butoane-de-logare #facebook {
-  margin-right: 0px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  border: 0.5rem solid rgb(255, 0, 140);
+  background-color: rgb(201, 34, 56);
 }
 
 .titlu-login-page {
