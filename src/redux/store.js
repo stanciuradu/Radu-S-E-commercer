@@ -5,9 +5,10 @@ import thunk from 'redux-thunk';
 // import reducer-ul din fisierul cart
 import cartReducer from "./cart/cartReducers";
 import { userReducer } from './user/userReducers';
+import favoriteReducer from './favorite/favoriteReducers';
 
 
-const rootReducer = combineReducers({ cart: cartReducer, user: userReducer })
+const rootReducer = combineReducers({ cart: cartReducer, user: userReducer, favorite:favoriteReducer})
 // am creat store-ul pe baza unui cartReducer
 const store = createStore(rootReducer, applyMiddleware(thunk));
 

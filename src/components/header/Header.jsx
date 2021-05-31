@@ -11,7 +11,7 @@ import { signOutAction } from '../../redux/user/userActions';
 
 
 function Header(props) {
-    const { numberOfProducts, user, signOutWithDispatch } = props;
+    const { numberOfProducts, user, signOutWithDispatch, numberOfProductsFavorite } = props;
 
     function signOutUser() {
         signOutWithDispatch();
@@ -47,6 +47,7 @@ function Header(props) {
                 <Link to='/favorite'>
                     <Favorite/>
                 </Link>
+                <p className='ml-2'>{numberOfProductsFavorite}</p>
             </div>
         </div>
     );
@@ -59,6 +60,7 @@ function mapStateToProps(state) {
     return {
         // extrag din store nr de produse, dar acum sunt din cart
         numberOfProducts: state.cart.products.length,
+        numberOfProductsFavorite:state.favorite.products.length,
         user: state.user.data
     };
 }

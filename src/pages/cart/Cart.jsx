@@ -50,7 +50,7 @@ function Cart(props) {
           ) : (
             // Daca nu avem produse in cart afisam un mesaj si un buton care duce la Home.
             <div className="footer-bottom d-flex flex-column align-items-center">
-              <p className="h3">Nu ai produse in cart!</p>
+              <p className="h3">Nu ai produse adăugate in cart!</p>
               <Link to="/">
                 <button className="btn btn-outline-dark">Înapoi la Home</button>
               </Link>

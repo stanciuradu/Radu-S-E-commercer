@@ -4,9 +4,18 @@ import React from "react";
 import { connect } from "react-redux";
 // import actiunea pe care vreau sa o declansez din fisierul actions
 import { addToCart } from "../redux/cart/cartActions";
+// import actiunea de adaugare la favorite
+import addToFavorite from "../redux/favorite/favoriteActions";
 
 function ProductItem(props) {
-  const { name, price, currency, image, addToCartWithDispatch } = props;
+  const {
+    name,
+    price,
+    currency,
+    image,
+    addToCartWithDispatch,
+    addToFavoriteWithDispatch,
+  } = props;
   return (
     <div className="col-12 col-md-4 mb-2">
       <img src={image} alt="random" className="w-100" />
@@ -30,6 +39,19 @@ function ProductItem(props) {
         >
           Adauga in cos
         </button>
+        <button
+          className="btn btn-danger ml-2"
+          onClick={() => {
+            addToFavoriteWithDispatch({
+              name,
+              price,
+              currency,
+              image,
+            });
+          }}
+        >
+          Adauga la Favorite
+        </button>
       </div>
     </div>
   );
@@ -41,14 +63,9 @@ function ProductItem(props) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    // metoda care apeleaza actiunea si o trimite catre store
-    addToCartWithDispatch: (product) => {
-      // rezulttul actiunii in momentul in care este apelata
-      const actionResult = addToCart(product);
-      // vreau sa ajunga rezultatul actinii catre reducer cu dispatch
-      // iar reducer-ul va modofica store-ul
-      dispatch(actionResult);
-    },
+    // metode care apeleaza actiunea si o trimite catre store
+    addToCartWithDispatch: (product) => dispatch(addToCart(product)),
+    addToFavoriteWithDispatch: (product) => dispatch(addToFavorite(product))
   };
 }
 
