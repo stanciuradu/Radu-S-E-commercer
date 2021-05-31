@@ -3,10 +3,10 @@
   justify-content: center;
   align-items: center;
 }
-.h3-favorite{
+.h3-favorite {
   color: red;
   font-size: 2rem;
-  border:3px double blue;
+  border: 3px double blue;
   border-radius: 1rem;
   background-color: rgb(69, 2, 131);
 }

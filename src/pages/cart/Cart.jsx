@@ -29,7 +29,7 @@ function Cart(props) {
                       <div className="cart">
                         <p>{product.name}</p>
                         <p>
-                            {product.price} {product.currency}
+                          {product.price} {product.currency}
                         </p>
                         <button
                           className="btn btn-outline-dark"

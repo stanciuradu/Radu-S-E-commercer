@@ -16,7 +16,7 @@ function favoriteReducer(state = initialState, action) {
           // la produsele adaugate anterior vreau sa adaug noul produs accesibil prin action.payload
           ...state.products,
           product,
-        ]
+        ],
       };
       // return state modificat
       return newState;

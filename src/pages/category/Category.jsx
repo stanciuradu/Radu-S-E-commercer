@@ -6,8 +6,6 @@ import products from "../../utils/products.json";
 import ProductsList from "../../components/ProductList";
 import "./Category.css";
 
-
-
 class Category extends Component {
   constructor(props) {
     super(props);

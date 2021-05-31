@@ -7,17 +7,17 @@
 }
 @media (max-width: 768px) {
   footer > div {
-      flex-direction: column;
+    flex-direction: column;
   }
 
-  footer .footer-group{
-      margin-bottom: 1.5rem;
+  footer .footer-group {
+    margin-bottom: 1.5rem;
   }
 }
-.footer{
+.footer {
   border: 3px solid red;
 }
-.col-6{
+.col-6 {
   display: flex;
   flex-direction: column;
 }

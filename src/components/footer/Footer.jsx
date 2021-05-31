@@ -17,9 +17,10 @@ function Footer() {
           </div>
           <div className="col-6">
             <h3>Contact:</h3>
-           <span>
-            <Phone />+4027346294910
-            </span> 
+            <span>
+              <Phone />
+              +4027346294910
+            </span>
           </div>
           <div className="col-6">
             <Link to="TermsAndConditions" className="link">
