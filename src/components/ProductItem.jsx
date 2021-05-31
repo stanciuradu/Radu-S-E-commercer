@@ -37,7 +37,7 @@ function ProductItem(props) {
             });
           }}
         >
-          Adauga in cos
+          Adaugă in coș
         </button>
         <button
           className="btn btn-danger ml-2"
@@ -50,7 +50,7 @@ function ProductItem(props) {
             });
           }}
         >
-          Adauga la Favorite
+          Adaugă la Favorite
         </button>
       </div>
     </div>
@@ -65,7 +65,7 @@ function mapDispatchToProps(dispatch) {
   return {
     // metode care apeleaza actiunea si o trimite catre store
     addToCartWithDispatch: (product) => dispatch(addToCart(product)),
-    addToFavoriteWithDispatch: (product) => dispatch(addToFavorite(product))
+    addToFavoriteWithDispatch: (product) => dispatch(addToFavorite(product)),
   };
 }
 
